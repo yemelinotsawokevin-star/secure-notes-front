@@ -66,3 +66,43 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+[data-theme="light"] {
+  color: #213547;
+  background-color: #ffffff;
+} 
+[data-theme="light"] a:hover {
+  color: #747bff;
+}
+[data-theme="light"] button {
+  background-color: #f9f9f9;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f5f6fa;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+
+button {
+  background: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+}
+body {
+    margin: 0;
+}

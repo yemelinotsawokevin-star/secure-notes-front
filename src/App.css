@@ -1,42 +1,54 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+/* Fond global */
+.app-container {
+    min-height: 100vh;
+    background-color: #f4f6f8;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    box-sizing: border-box;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+/* Titre principal */
+.app-title {
+    text-align: center;
+    color: #1f2d3d;
+    margin-bottom: 25px;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Navigation */
+.app-nav {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+/* Bouton admin */
+.app-link {
+    text-decoration: none;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 18px;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: 0.3s;
 }
 
-.card {
-  padding: 2em;
+/* Hover bouton */
+.app-link:hover {
+    background-color: #45a049;
 }
 
-.read-the-docs {
-  color: #888;
+/* Responsive (mobile) */
+@media (max-width: 500px) {
+    .app-container {
+        padding: 15px;
+    }
+
+    .app-title {
+        font-size: 20px;
+    }
+
+    .app-link {
+        width: 100%;
+        text-align: center;
+    }
 }
